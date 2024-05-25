@@ -1,0 +1,80 @@
+/* projects.css Style File Gabriel Beharry 301307250 22-05-24 */
+/* Main Container for Projects */
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    color: #fff;
+  }
+  
+  .projects-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .projects-subheading {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #aaa;
+  }
+  
+  .projects-filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  
+  .filter-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #1a1a1a;
+    color: #f25353;
+    margin: 0 0.5rem;
+    cursor: pointer;
+  }
+  
+  .filter-button.active, .filter-button:hover {
+    background-color: #f25353;
+    color: #000;
+  }
+  
+
+  /* Project Grid */
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .project-item {
+    background-color: #1a1a1a;
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+
+
+  
+  .project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+  
+  .project-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-item p {
+    font-size: 1rem;
+    color: #aaa;
+  }
+  

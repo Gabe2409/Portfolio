@@ -1,0 +1,157 @@
+/* about.css Style File Gabriel Beharry 301307250 22-05-24 */
+/* Main Container for About US */
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    color: #fff;
+  }
+  
+
+  /* Secrtion for picture, CV button and Personal information */
+  .profile-section {
+    display: flex;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 10px;
+    border: 1px;
+    border-color: #fff;
+    border-style: solid;
+    margin-bottom: 2rem;
+    width: 100%;
+    max-width: 1200px;
+    text-align:left;
+  }
+  
+  .profile-image {
+    
+    height: 300px;
+    width: 200px;
+    margin-right: 2rem;
+  }
+  
+  .profile-details {
+    flex: 1;
+    align-items: left;
+  }
+  
+  .profile-details p {
+    margin: 0 0 1rem 0;
+    line-height: 1.5;
+  }
+  
+  .profile-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .profile-info p {
+    margin: 0;
+    flex: 1 1 45%;
+  }
+  
+  /* CV Button Style */
+  .download-cv {
+    padding: 0.75rem 2rem;
+    border: 2px solid #f25353;
+    background-color: transparent;
+    color: #f25353;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+  }
+  
+  .download-cv:hover {
+    background-color: #f25353;
+    color: #000;
+  }
+  
+
+
+  /* Resume Sefction for Education & Experience */
+
+  .resume-heading {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    
+  }
+  
+  .resume-subheading {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    color: #aaa;
+  }
+  
+  .resume-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .resume-section {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 10px;
+    flex: 1;
+    margin: 0 1rem;
+    border: 1px;
+    border-color: #fff;
+    border-style: solid;
+  }
+  
+  .resume-section h3 {
+    margin-bottom: 1.5rem;
+    color: #f25353;
+    text-align:left;
+  }
+  
+  .resume-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+  }
+  
+  .resume-item i {
+    margin-right: 1rem;
+    color: #f25353;
+  }
+  
+  .resume-item h4 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align:left;
+  }
+  
+  .resume-item p {
+    margin: 0.5rem 0;
+    color: #aaa;
+    text-align:left;
+  }
+  
+
+    /* Responsive Controls*/
+  @media (max-width: 768px) {
+    .profile-section, .resume-content {
+      flex-direction: column;
+   
+    }
+  
+    .profile-image {
+      margin: 0 0 1rem 0;
+    }
+  
+    .profile-details {
+      text-align: center;
+    }
+  
+    .resume-section {
+      margin: 1rem 0;
+    }
+  }
+  

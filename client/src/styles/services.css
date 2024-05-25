@@ -1,0 +1,61 @@
+/* services.css Style File Gabriel Beharry 301307250 22-05-24 */
+/* Main Container for Services */
+.services-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    color: #fff;
+    
+  }
+  
+  .services-heading {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  
+
+  /* Grid*/
+  .services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+
+  }
+  
+  /* Grid item */
+  .service-item {
+    background-color: #1a1a1a;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border-radius: 10px;
+    border: 1px;
+    border-color: #fff;
+    border-style: solid;
+  }
+  
+  .service-item:hover {
+    transform: translateY(-10px);
+  }
+  
+  .icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #f25353;
+  }
+  
+  .service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .service-item p {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #aaa;
+  }
+  
